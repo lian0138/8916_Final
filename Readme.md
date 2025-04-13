@@ -181,16 +181,17 @@ the report inside it. And we can see it including location, AvgIceThickness, and
 {"Location":"Fifth Avenue","AvgIceThickness":28.38888888888889,"MaxSnowAccumulation":29.0,"WindowEndTime":"2025-04-12T18:45:00.0000000Z"}
 ```
 
-
 ### Results:
 
 #### Highlight key findings, such as:
 * Aggregated data outputs (e.g., average ice thickness).
-
-**Regarding to Accessing Stored Data**
+![enter image description here](https://github.com/lian0138/8916_Final/blob/main/img/reportJSON.png?raw=true)
+**Regarding Accessing Stored Data**
 #### Include references to sample output files stored in Blob Storage.
+![enter image description here](https://github.com/lian0138/8916_Final/blob/main/img/storage.png?raw=true)
+![enter image description here](https://github.com/lian0138/8916_Final/blob/main/img/reportDownload.png?raw=true)
 
-**Regarding to Accessing Stored Data**
+**Regarding Accessing Stored Data**
 
   
 
