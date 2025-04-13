@@ -1,0 +1,12 @@
+SELECT
+    location AS Location,
+    AVG(iceThickness) AS AvgIceThickness,
+    MAX(snowAccumulation) AS MaxSnowAccumulation,
+    DATEADD(hour, -5, System.Timestamp) AS WindowEndTime
+INTO
+    [rideau]
+FROM
+    [8916final]
+GROUP BY
+    location,
+    TumblingWindow(minute, 5)
