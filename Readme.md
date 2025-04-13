@@ -75,7 +75,7 @@ return {
 * Explain the configuration steps for setting up the IoT Hub, including endpoints and message routing.
 
 1. Create an IoT Hub
-In the Azure Portal, search for IoT Hub and click Create. And provide a name for the IoT Hub and select a resource group.
+In the Azure Portal, search for IoT Hub and click Create. Provide a name for the IoT Hub and select a resource group.
 ![enter image description here](https://raw.githubusercontent.com/lian0138/8916_Final/refs/heads/main/img/Report_001.png)
 ![enter image description here](https://github.com/lian0138/8916_Final/blob/main/img/Report_002.png?raw=true)
 2. Register 3 Devices for 3 sensors
@@ -97,24 +97,24 @@ In the Azure Portal, search for Stream Analytics jobs and click Create. Choose C
 
 2. Define Input
 
-In the Stream Analytics job, go to the Inputs section and click Add.
-Choose IoT Hub as the input source.
-Provide the following details:
-IoT Hub Namespace: Select my IoT Hub.
-IoT Hub Policy Name: Use the iothubowner policy.
-Consumer Group: Use $Default or create a new consumer group in the IoT Hub.
-Serialization Format: Choose JSON.
+In the Stream Analytics job, go to the Inputs section and click Add.  
+Choose IoT Hub as the input source.  
+Provide the following details:  
+IoT Hub Namespace: Select my IoT Hub.  
+IoT Hub Policy Name: Use the iothubowner policy.  
+Consumer Group: Use $Default or create a new consumer group in the IoT Hub.  
+Serialization Format: Choose JSON.  
 ![enter image description here](https://github.com/lian0138/8916_Final/blob/main/img/Report_004.png?raw=true)
 
 
 3. Define Output
 
-Go to the Outputs section and click Add.
-Choose Blob Storage as the output destination.
-Provide the following details:
-Storage Account: Select your Azure Storage Account 8916final (Build it first).
-Container: Create a container (rideau) for storing results.
-Path Pattern: Optionally define a folder structure "{date}/{time}".
+Go to the Outputs section and click Add.  
+Choose Blob Storage as the output destination.  
+Provide the following details:  
+Storage Account: Select your Azure Storage Account 8916final (Build it first).  
+Container: Create a container (rideau) for storing results.  
+Path Pattern: Optionally define a folder structure "{date}/{time}".  
 ![enter image description here](https://github.com/lian0138/8916_Final/blob/main/img/Report_005.png?raw=true)
 ![enter image description here](https://github.com/lian0138/8916_Final/blob/main/img/Report_006.png?raw=true)
 ![enter image description here](https://github.com/lian0138/8916_Final/blob/main/img/Report_007.png?raw=true)
