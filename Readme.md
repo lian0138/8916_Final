@@ -143,6 +143,7 @@ TumblingWindow(minute, 5)
 
 * Explain how the processed data is organized in Blob Storage (e.g., folder structure, file naming convention).
 * Specify the formats of stored data (JSON/CSV).
+
 **Regard to the (2. Define Input) and (3. Define Output)**
 I have already defined the data will save in Blob as json file with {date}/{time} folder structure
 
@@ -165,6 +166,7 @@ python3 generate.py
 #### Configuring Azure Services:
 
 * Describe how to set up and run the IoT Hub and Stream Analytics job.
+
 **Regard the (Implementation Details)**
 
 #### Accessing Stored Data:
@@ -184,8 +186,10 @@ the report inside it. And we can see it including location, AvgIceThickness, and
 
 #### Highlight key findings, such as:
 * Aggregated data outputs (e.g., average ice thickness).
+
 **Regarding to Accessing Stored Data**
 #### Include references to sample output files stored in Blob Storage.
+
 **Regarding to Accessing Stored Data**
 
   
